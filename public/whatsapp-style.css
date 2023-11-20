@@ -1,0 +1,38 @@
+/* Reset some default styling */
+body, h1, ul, li, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Main container */
+  .chat-app {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 25%;
+    background-color: #075E54;
+    color: white;
+    padding: 20px;
+  }
+  
+  /* Chat list */
+  .chat-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .chat-list li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .chat-list li:hover {
+    background-color: #128C7E;
+  }
+  
+  /* Chat
+  
